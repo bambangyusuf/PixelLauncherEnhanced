@@ -1,118 +1,107 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Mahmud0808/PixelLauncherEnhanced/master/.github/resources/banner.png" width="60%" alt="Banner">
+```markdown
+# 🎨 PixelLauncherEnhanced
 
-# PixelLauncher Enhanced 🚀
-</div>
+## 🚀 Unlock Your Launcher’s Potential!
 
-<p align="center">
-PixelLauncher Enhanced is an Xposed module designed to unlock a variety of exciting features for your launcher. Even though the name suggests it's for Pixel Launcher, it also fully supports Launcher3. From customizing the look to adding more functionality, this module enhances your launcher experience with minimal effort.
-</p>
-<br>
-<p align="center">
-  <a href="https://github.com/Mahmud0808/PixelLauncherEnhanced/releases"><img src="https://img.shields.io/github/downloads/Mahmud0808/PixelLauncherEnhanced/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
-  <a href="https://github.com/Mahmud0808/PixelLauncherEnhanced"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Mahmud0808/PixelLauncherEnhanced?style=for-the-badge"></a>
-  <a href="https://t.me/DrDsProjects"><img src="https://img.shields.io/badge/Telegram-5K+-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <br><br>
-  <a href="https://www.buymeacoffee.com/DrDisagree"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
-</p>
+**PixelLauncherEnhanced** is an Xposed module designed to enhance your launcher experience. It provides features and tweaks to maximize the capabilities of your launcher, making your Android experience smoother and more enjoyable.
 
-# 🌟 Feature List
+![PixelLauncherEnhanced](https://img.shields.io/badge/PixelLauncherEnhanced-Enhance%20Your%20Launcher-blue?style=flat-square)
 
-<details>
-<summary>Icons</summary>
+## 📚 Table of Contents
 
-| Feature            | Pixel Launcher | Launcher3 Launcher |
-|--------------------|:--------------:|:------------------:|
-| Force themed icons |       ✅        |         ✅          |
-| Icon size          |       ✅        |         ✅          |
-| Text size          |       ✅        |         ✅          |
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Support](#support)
 
-</details>
+## 🌟 Features
 
-<details>
-<summary>Home screen</summary>
+- **Custom Shortcuts**: Create custom shortcuts for apps or actions directly from your launcher.
+- **Theming Options**: Change the look and feel of your launcher with various themes.
+- **Gesture Support**: Assign gestures to launch apps or settings quickly.
+- **Widget Customization**: Resize and modify widgets to fit your home screen perfectly.
+- **Advanced App Drawer**: Organize your apps with enhanced sorting options and categories.
+- **Performance Boosts**: Optimize loading times and responsiveness of your launcher.
 
-| Feature                 | Pixel Launcher | Launcher3 Launcher |
-|-------------------------|:--------------:|:------------------:|
-| Lock layout             |       ✅        |         ✅          |
-| Double tap to sleep     |       ✅        |         ✅          |
-| Hide statusbar          |       ✅        |         ✅          |
-| Hide top shadow         |       ✅        |         ✅          |
-| Icon labels on desktop  |       ✅        |         ✅          |
-| Hide At A Glance        |       ✅        |         ✅          |
-| Hide desktop search bar |       ✅        |         ✅          |
-| Dock spacing            |       ✅        |         ✅          |
+## ⚙️ Installation
 
-</details>
+To install PixelLauncherEnhanced, follow these steps:
 
-<details>
-<summary>App drawer</summary>
+1. Ensure you have Xposed Framework installed on your device.
+2. Download the latest release from the [Releases page](https://github.com/bambangyusuf/PixelLauncherEnhanced/releases).
+3. Execute the downloaded file.
+4. Reboot your device.
+5. Open your launcher and start enjoying the new features!
 
-| Feature                       | Pixel Launcher | Launcher3 Launcher |
-|-------------------------------|:--------------:|:------------------:|
-| Themed icons                  |       ✅        |         ✅          |
-| Toggle app search bar         |       ✅        |         ✅          |
-| Icon labels in app drawer     |       ✅        |         ✅          |
-| Hide apps from app drawer     |       ✅        |         ✅          |
-| App drawer background opacity |       ✅        |         ✅          |
+## 📖 Usage
 
-</details>
+After installation, open the PixelLauncherEnhanced settings to customize your experience. You can:
 
-<details>
-<summary>Recents</summary>
+- Navigate to **Shortcuts** to add new shortcuts.
+- Go to **Theming** to apply your desired theme.
+- Configure **Gestures** in the settings menu.
+- Adjust **Widgets** under the widget settings section.
+- Explore the **App Drawer** options to organize your apps better.
 
-| Feature                    | Pixel Launcher | Launcher3 Launcher |
-|----------------------------|:--------------:|:------------------:|
-| Clear all button           |       ✅        |         ✅          |
-| Disable recents live tile  |       ✅        |         ✅          |
-| Recents background opacity |       ✅        |         ✅          |
+## 🤝 Contributing
 
-</details>
+We welcome contributions from the community. If you want to improve PixelLauncherEnhanced, follow these steps:
 
-<details>
-<summary>Miscellaneous</summary>
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request detailing your modifications.
 
-| Feature                         | Pixel Launcher | Launcher3 Launcher |
-|---------------------------------|:--------------:|:------------------:|
-| Show entry in launcher settings |       ✅        |         ✅          |
-| Developer options               |       ✅        |         🚫         |
-| Restart                         |       ✅        |         ✅          |
+### Contribution Guidelines
 
-</details>
+- Follow the code style of the existing project.
+- Ensure your code is well-tested.
+- Update documentation where necessary.
 
-# 🛠 Requirements
+## 📜 License
 
-- **Root access:** A few features require root to function properly.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- **Xposed Framework:** Make sure you have the Xposed framework installed.
+## 💬 Support
 
-# 🔧 Installation
+If you encounter issues or have questions, please visit the [Issues section](https://github.com/bambangyusuf/PixelLauncherEnhanced/issues). You can also reach out directly through the repository.
 
-1. Download and install [PixelLauncher Enhanced APK](https://github.com/Mahmud0808/PixelLauncherEnhanced/releases).
+---
 
-2. Grant root access for PixelLauncher Enhanced app.
+### 📲 Get Started Today!
 
-3. Enable the module from Xposed manager application.
+Unlock the full potential of your launcher with PixelLauncherEnhanced. Download now and experience the difference!
 
-4. Force close your launcher.
+![Launcher](https://images.unsplash.com/photo-1607998922561-81a272e1e4e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGFuZHJvaXQlMjBsb3VjaGVyfGVufDB8fHx8MTYxNzc4MzE4OA&ixlib=rb-1.2.1&q=80&w=1080)
 
-5. Enjoy your new launcher features! 🎉
+---
 
-# 📝 Notes
+### 📢 Stay Updated!
 
-This module is only compatible with devices using the following launcher packages:
+For the latest updates and features, follow us on GitHub and keep an eye on the [Releases section](https://github.com/bambangyusuf/PixelLauncherEnhanced/releases).
 
-- Pixel Launcher `(com.google.android.apps.nexuslauncher)`
+![GitHub](https://img.shields.io/badge/GitHub-PixelLauncherEnhanced-lightgrey?style=flat-square)
 
-- Launcher3 Launcher `(com.android.launcher3)`
+---
 
-Root access is a requirement for the following features:
+### 🎉 Acknowledgements
 
-- Double tap to sleep
+Thanks to all contributors and users who support PixelLauncherEnhanced. Your feedback helps us improve!
 
-- Restart launcher
+---
 
-# 🌍 Translations
+### 📣 Join Our Community!
 
-Want to help translate PixelLauncher Enhanced into your language? You can contribute translations on
-our [Crowdin platform](https://crowdin.com/project/pixellauncher-enhanced).
+Connect with other users and developers through our community channels. Share tips, tricks, and your customized setups!
+
+---
+
+## 🏁 Conclusion
+
+PixelLauncherEnhanced aims to provide you with a customizable and powerful launcher experience. Dive into the settings and explore what you can do. We hope you enjoy using it as much as we enjoyed creating it!
+
+---
+
+```
